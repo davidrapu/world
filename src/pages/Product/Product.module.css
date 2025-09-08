@@ -1,0 +1,31 @@
+.products{
+  background-color: var(--color-dark--0);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6em;
+  padding: 0;
+  margin: 0;
+}
+.main{
+  height: auto;
+  padding: 0 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1.2em;
+}
+.main img{
+  height: 10em;
+}
+.desc{
+    width: 100%;
+}
+.desc h2{
+  font-size: 1.2em;
+  margin: 0;
+}
+.desc p{
+  font-size: 0.6em;
+}

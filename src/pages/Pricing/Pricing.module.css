@@ -1,0 +1,32 @@
+.pricing{
+  background-color: var(--color-dark--0);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5em;
+  padding: 0;
+  margin: 0;
+}
+.pricing main{
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.7em;
+  column-gap: 0.7em;
+}
+.pricing main img{
+  height: 10em;
+}
+.pricing h2{
+  font-size: 1.1em;
+  margin: 0;
+  color: var(--color-light--3);
+}
+.pricing p{
+  font-size: 0.7em;
+  color: var(--color-light--2);
+}

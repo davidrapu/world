@@ -1,0 +1,33 @@
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    position: sticky;
+    top: 1em;
+    z-index: 1000;
+    margin-bottom: 3em;
+}
+.img{
+    width: 7em;
+}
+.locations{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    column-gap: 1em;
+}
+.a{
+    font-size: 0.8em;
+    font-weight: 800;
+    padding: 0.4em 0.6em;
+    border-radius: 0.6em;
+    transition: 0.2s all ease-out;
+}
+.li{
+    transition: 0.2s all ease-out;
+}
+.li:hover{
+    transform: scale(1.1);
+}
