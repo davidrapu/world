@@ -1,6 +1,7 @@
 import styles from './Home.module.css'
 import NavBar from '../../components/Navigation/NavBar'
 import Button from '../../components/Button/Button';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -13,7 +14,9 @@ function Home() {
             of. Never forget your wonderful experiences, and show your friends
             how you have wandered the world.
           </h2>
-          <Button><strong>START TRACKING NOW</strong></Button>
+          <Link to='/login'>
+            <Button><strong>START TRACKING NOW</strong></Button>
+          </Link>
         </main>
       </div>
     );

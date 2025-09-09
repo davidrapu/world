@@ -1,13 +1,11 @@
 import styles from "./NavBar.module.css";
 import { NavLink, Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import Logo from "../Logo/Logo";
 
 function NavBar() {
   return (
     <nav className={styles.navBar}>
-        <Link to='/'>
-            <img className={styles.img} src={logo} alt="Worldwise Logo" />
-        </Link>
+        <Logo />
         <ul className={styles.locations}>
             <li className={styles.li}>
                 <NavLink className={styles.a} to="/product">Product</NavLink>

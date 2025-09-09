@@ -8,9 +8,6 @@
     z-index: 1000;
     margin-bottom: 3em;
 }
-.img{
-    width: 7em;
-}
 .locations{
     list-style: none;
     display: flex;
@@ -32,14 +29,10 @@
     transform: scale(1.1);
 }
 
-@media (min-width: 750px){
+@media (min-width: 46.8750em){ /* 750 px */
     .navBar{
         align-items: center;
         height: 2.5em;
-    }
-    .img{
-        width: 9em;
-        height: 100%;
     }
     .locations{
         column-gap: 1.1em;
@@ -52,12 +45,9 @@
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 62.5000em){ /* 1000 px */
     .navBar{
         height: 3em;
-    }
-    .img{
-        width: 12em;
     }
     .locations{
         column-gap: 1.2em;
