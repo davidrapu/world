@@ -1,0 +1,88 @@
+.login{
+    background-color: var(--color-dark--0);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    align-items: center;
+}
+.login main{
+    width: 70%;
+    padding: 1.5em;
+    background-color: var(--color-dark--1);
+    border-radius: 0.4em;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.9em;
+}
+.login fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3750em;
+}
+.login label{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.login input{
+    padding: 0.3125em;
+    background-color: var(--color-light--3);
+    border: none;
+    border-radius: 0.2em;
+    height: 1.3em;
+}
+.login button{
+    width: fit-content;
+    padding: 0.3em 0.9em;
+    font-weight: 600;
+    margin-top: 0.3125em;
+}
+
+@media (min-width: 46.8750em){ /* 750 px */
+    .login{
+        main{
+            width: 60%;
+        }
+        label{
+            font-size: 1.1em;
+        }
+        input{
+            height: 1.5em;
+            font-size: 0.9em;
+        }
+        button{
+            font-size: 1em;
+        }
+    }
+}
+
+@media (min-width: 56.2500em){ /* 900 px */
+    .login{
+        main{
+            width: 55%;
+        }
+    }
+}
+
+@media (min-width: 75em){ /* 1200 px */
+    .login{
+        main{
+            width: 50%;
+        }
+        label{
+            font-size: 1.3em;
+        }
+        input{
+            font-size: 1.1em;
+        }
+        button{
+            font-size: 1.2em;
+        }
+    }
+}
