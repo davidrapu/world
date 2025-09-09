@@ -3,6 +3,7 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   row-gap: 5em;
   padding: 0;
@@ -29,4 +30,53 @@
 .pricing p{
   font-size: 0.7em;
   color: var(--color-light--2);
+}
+
+@media (min-width: 46.8750em){ /* 46.8750em */
+  .pricing{
+    main{
+      width: 70%;
+      img{
+        height: 15em;
+      }
+      h2{
+        font-size: 1.5em;
+      }
+      p{
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media (min-width: 56.2500em){ /* 900 px */
+  .pricing{
+    main{
+      img{
+        height: 18em;
+      }
+      h2{
+        font-size: 1.8em;
+      }
+      p{
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+@media (min-width: 75em){ /* 1200 px */
+  .pricing{
+    main{
+      img{
+        height: 22em;
+      }
+      h2{
+        font-size: 2.2em;
+      }
+      p{
+        font-size: 1.2em;
+      }
+    }
+  }
 }

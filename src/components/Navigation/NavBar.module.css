@@ -31,3 +31,38 @@
 .li:hover{
     transform: scale(1.1);
 }
+
+@media (min-width: 750px){
+    .navBar{
+        align-items: center;
+        height: 2.5em;
+    }
+    .img{
+        width: 9em;
+        height: 100%;
+    }
+    .locations{
+        column-gap: 1.1em;
+        height: 100%;
+        align-items: center;
+    }
+    .a{
+        font-size: 0.95em;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1000px){
+    .navBar{
+        height: 3em;
+    }
+    .img{
+        width: 12em;
+    }
+    .locations{
+        column-gap: 1.2em;
+    }
+    .a{
+        font-size: 1.1em;
+    }
+}

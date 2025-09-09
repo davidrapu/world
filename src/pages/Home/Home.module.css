@@ -9,13 +9,16 @@
     background-position: center;
     min-height: 100vh;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8em;
+    align-items: center;
 
     padding: 0;
     margin: 0;
 }
 .main{
     padding: 0 1em;
-    margin-top: 10em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -27,7 +30,38 @@
     margin: 0;
 }
 .main h2{
-    font-size: 0.55em;
+    font-size: 0.6em;
     color: var(--color-light--1);
     margin-bottom: 2em;
+}
+.main button{
+    padding: 0.7em 1.3em;
+    font-size: 0.6em;
+    font-weight: 700;
+}
+
+@media (min-width: 46.8750em){ /* 750 px */
+    .main{
+        width: 70%;
+        h2{
+            font-size: 0.8em;
+        }
+        button{
+            font-size: 0.8em ;
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .main{
+        h1{
+            font-size: 2.1em;
+        }
+        h2{
+            font-size: 1em;
+        }
+        button{
+            font-size: 1em;
+        }
+    }
 }

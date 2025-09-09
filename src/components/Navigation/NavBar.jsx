@@ -16,7 +16,7 @@ function NavBar() {
                 <NavLink className={styles.a} to="/pricing">Pricing</NavLink>
             </li>
             <li className={styles.li}>
-                <NavLink className={styles.a} to="/">Log In</NavLink>
+                <NavLink className={styles.a} to="/login">Log In</NavLink>
             </li>
         </ul>
     </nav>
