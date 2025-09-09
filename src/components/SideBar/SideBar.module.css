@@ -1,0 +1,36 @@
+.sidebar{
+    background-color: var(--color-dark--0);
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0em;
+    padding: 0.7em 0;
+}
+.sidebar img{
+    height: 2.3em;
+    width: auto;
+}
+.sidebar ul{
+    display: flex;
+    list-style: none;
+    background-color: var(--color-dark--1);
+    border: 1px solid var(--color-dark--1);
+    padding: 0;
+    font-size: 0.6em;
+    border-radius: 0.7em;
+    overflow: hidden;
+}
+.sidebar li{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.sidebar a{
+    padding: 0.4em 1.2em;
+    transition: all 0.4s ease-out;
+}
+.active{
+    background-color: var(--color-dark--0);
+    border-radius: 0.7em;
+}
