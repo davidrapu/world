@@ -1,0 +1,21 @@
+.countries{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    gap: 1.5em;
+    margin-bottom: 0.5em;
+}
+.country{
+    border-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--color-dark--2);
+    font-size: 0.8em;
+    border-left: 0.1875em solid var(--color-brand--1);
+}
+.country p{
+    margin: 0;
+    font-weight: 700;
+}
