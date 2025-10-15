@@ -10,9 +10,10 @@
   --color-light--1: #aaa;
   --color-light--2: #ececec;
   --color-light--3: #d6dee0;
-  --breakpoint-sm: 37.5000em;
-  --breakpoint-md: 56.2500em;
-  --breakpoint-lg: 75em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 
 body {
