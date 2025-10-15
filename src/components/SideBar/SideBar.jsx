@@ -10,8 +10,7 @@ function SideBar() {
         <li>
           <NavLink
             to="cities"
-            className={({ isActive }) => (
-              isActive ? styles.active : "")}
+            className={({ isActive }) => (isActive ? styles.active : "")}
           >
             CITIES
           </NavLink>
@@ -25,9 +24,7 @@ function SideBar() {
           </NavLink>
         </li>
       </ul>
-      <div className="data">
-        <Outlet />
-      </div>
+      <Outlet />
     </section>
   );
 }
