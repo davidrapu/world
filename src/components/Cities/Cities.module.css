@@ -1,0 +1,71 @@
+.cities{
+    display: flex;
+    row-gap: 0.5em;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 0.5em;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    border-left: 0.1875em solid var(--color-brand--2);
+    border-radius: 0.3em;
+    padding: 0.4em 0.6em;
+    font-size: 0.7em;
+    width: 100%;
+    background-color: var(--color-dark--2);
+    
+}
+.city p{
+    margin: 0;
+    padding: 0;
+}
+.displayMessage{
+    text-align: center;
+}
+.cityData{
+    display: flex;
+    column-gap: 0.7em;
+}
+.cityData p{
+    font-weight: 600;
+}
+.visitedDate{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+}
+.visitedDate button{
+    background-color: var(--color-dark--0);
+    border-radius: 50%;
+    font-size: 0.5em;
+    height: 2.5em;
+    width: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-out;
+}
+.visitedDate button:hover{
+    background-color: var(--color-brand--1);
+}
+
+@media (min-width: 600px){
+    .cities{
+        width: 60%;
+    }
+    .city{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 900px){
+    .city{
+        font-size: 1em;
+    }
+}
+@media (min-width: 1200px){
+    .cities{
+        width: 40%;
+    }
+}
